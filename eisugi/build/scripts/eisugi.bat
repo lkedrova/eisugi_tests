@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\eisugi.jar
 
 
 @rem Execute eisugi
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %EISUGI_OPTS%  -classpath "%CLASSPATH%"  %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %EISUGI_OPTS%  -classpath "%CLASSPATH%" MyFirstProgram %*
 
 :end
 @rem End local scope for the variables with windows NT shell
